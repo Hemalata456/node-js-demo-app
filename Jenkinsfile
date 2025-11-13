@@ -9,7 +9,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 echo '📦 Cloning repository...'
-                git branch: 'main', url: 'https://github.com/Hemalata456/nodejs-demo-app.git'
+                git branch: 'main', url: 'https://github.com/Hemalata456/node-js-demo-app.git'
             }
         }
 
